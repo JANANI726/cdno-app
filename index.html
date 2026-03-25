@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CDNO | Context-Dependent Notification Optimizer</title>
+  <meta
+    name="description"
+    content="CDNO is a context-aware notification optimizer that ranks and filters alerts based on urgency, relevance, and user context."
+  />
+  <meta
+    name="keywords"
+    content="CDNO, Notification Optimizer, Smart Notifications, Student Productivity, Dashboard"
+  />
+  <meta name="author" content="Leo" />
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+
+  <div class="cursor"></div>
+
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="brand">
+        <div class="brand-mark">C</div>
+        <span>CDNO</span>
+      </div>
+
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#ranking">Ranking</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">ATTENTION INTELLIGENCE PLATFORM</span>
+        <h1>Context-Dependent Notification Optimizer</h1>
+        <p>
+          CDNO intelligently ranks and filters notifications based on your context,
+          including work mode, sleep mode, academic urgency, financial alerts,
+          and social relevance.
+        </p>
+
+
+        <div class="hero-actions">
+          <a href="notifications.html" class="btn btn-primary magnetic" id="launchBtn">Launch App</a>
+          <a href="#features" class="btn btn-secondary magnetic">Explore Features</a>
+        </div>
+
+
+        <div class="hero-stats">
+          <div class="stat-card">
+            <h3>30+</h3>
+            <p>Ranked Notifications</p>
+          </div>
+          <div class="stat-card">
+            <h3>12K+</h3>
+            <p>Priority Decisions</p>
+          </div>
+          <div class="stat-card">
+            <h3>89%</h3>
+            <p>Noise Reduction</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="hero-panel reveal">
+        <div class="device-shell">
+          <div class="device-top">
+            <span>CDNO Live Feed</span>
+            <span class="pulse-dot"></span>
+          </div>
+
+
+          <div class="feed-card high">
+            <span class="tag">HIGH</span>
+            <h4>Anna University Internal Marks Updated</h4>
+            <p>Academic Portal • 2 min ago</p>
+          </div>
+
+
+          <div class="feed-card medium">
+            <span class="tag">MEDIUM</span>
+            <h4>Placement Drive Reminder - TCS NQT</h4>
+            <p>Placement Cell • 12 min ago</p>
+          </div>
+
+
+          <div class="feed-card low">
+            <span class="tag">LOW</span>
+            <h4>Instagram: 14 new likes</h4>
+            <p>Social • 1 hr ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TRUST -->
+  <section class="trust-strip reveal">
+    <div class="container trust-row">
+      <span>Used by students, interns, early professionals, and productivity-focused users.</span>
+      <div class="trust-badges">
+        <span>Academic</span>
+        <span>Productivity</span>
+        <span>Social Control</span>
+        <span>Smart Ranking</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">FEATURES</span>
+        <h2>Minimal interface. Serious logic underneath.</h2>
+        <p>Designed to look calm while handling noisy, high-volume notification streams.</p>
+      </div>
+
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <h3>Context-Based Ranking</h3>
+          <p>Work mode, sleep mode, and weekend mode dynamically influence urgency.</p>
+        </article>
+
+
+        <article class="feature-card reveal">
+          <h3>Indian Notification Modeling</h3>
+          <p>Includes college updates, UPI alerts, IRCTC, WhatsApp groups, and internship mail.</p>
+        </article>
+
+
+        <article class="feature-card reveal">
+          <h3>Noise Reduction Engine</h3>
+          <p>Suppresses low-value social clutter while elevating critical academic and financial alerts.</p>
+        </article>
+
+
+        <article class="feature-card reveal">
+          <h3>Filter & History Views</h3>
+          <p>Track processed notifications, sort them, and review previous ranking sessions.</p>
+        </article>
+
+
+        <article class="feature-card reveal">
+          <h3>Profile Preferences</h3>
+          <p>Customize behavior and context bias using a local persistence layer.</p>
+        </article>
+
+
+        <article class="feature-card reveal">
+          <h3>Responsive Dashboard</h3>
+          <p>Optimized for mobile and desktop because users insist on using both.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- RANKING PREVIEW -->
+  <section class="section section-alt" id="ranking">
+    <div class="container ranking-layout">
+      <div class="ranking-copy reveal">
+        <span class="eyebrow">RANKING ENGINE</span>
+        <h2>Not all notifications deserve your attention.</h2>
+        <p>
+          CDNO scores alerts based on urgency, sender relevance, category, and active context.
+          That means your exam hall ticket can outrank your meme group. Civilization survives.
+        </p>
+        <ul class="bullet-list">
+          <li>Academic > Social during work mode</li>
+          <li>UPI fraud / bank alerts stay elevated</li>
+          <li>Muted social noise during sleep mode</li>
+          <li>History stored locally for demonstration</li>
+        </ul>
+      </div>
+
+
+      <div class="ranking-box reveal">
+        <div class="mini-rank-card">
+          <span>#1</span>
+          <div>
+            <h4>Exam Hall Ticket Released</h4>
+            <p>Academic • High Priority</p>
+          </div>
+        </div>
+
+
+        <div class="mini-rank-card">
+          <span>#2</span>
+          <div>
+            <h4>Placement Interview Slot Confirmed</h4>
+            <p>Career • High Priority</p>
+          </div>
+        </div>
+
+
+        <div class="mini-rank-card">
+          <span>#3</span>
+          <div>
+            <h4>UPI Debit Alert</h4>
+            <p>Finance • High Priority</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- TESTIMONIALS -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">REVIEWS</span>
+        <h2>People already tired of their phones seem to like it.</h2>
+      </div>
+
+
+      <div class="testimonial-grid">
+        <article class="testimonial-card reveal">
+          <p>“During placements, this helped me avoid random WhatsApp spam and actually focus on important updates.”</p>
+          <h4>Arjun K., Coimbatore</h4>
+        </article>
+
+
+        <article class="testimonial-card reveal">
+          <p>“My college groups are chaos. CDNO finally made my notifications useful instead of just loud.”</p>
+          <h4>Priya S., Chennai</h4>
+        </article>
+
+
+        <article class="testimonial-card reveal">
+          <p>“It feels minimal and clean. More importantly, it ranks things in a way that actually makes sense.”</p>
+          <h4>Rahul M., Bengaluru</h4>
+        </article>
+
+
+        <article class="testimonial-card reveal">
+          <p>“Sleep mode is my favorite. If it blocks nonsense at night, it has my respect.”</p>
+          <h4>Nivetha R., Salem</h4>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- CTA -->
+  <section class="cta-section reveal">
+    <div class="container cta-box">
+      <div>
+        <span class="eyebrow">GET STARTED</span>
+        <h2>See how your notifications behave under pressure.</h2>
+        <p>Launch the dashboard and simulate ranking across work, sleep, and weekend contexts.</p>
+      </div>
+      <a href="notifications.html" class="btn btn-primary magnetic">Open Dashboard</a>
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container contact-wrap reveal">
+      <div class="contact-left">
+        <span class="eyebrow">CONTACT</span>
+        <h2>Built like a serious product. Presented like one too.</h2>
+        <p>If someone asks whether this is just a UI demo, you can now say “no” without improvising badly.</p>
+      </div>
+
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn btn-primary magnetic">Submit & Continue</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-row">
+      <div>
+        <h3>CDNO</h3>
+        <p>Context-Dependent Notification Optimizer</p>
+      </div>
+      <div class="footer-contact">
+        <p>Email: cdno@gmail.com</p>
+        <p>Ph: +91 9999999999</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="./js/database.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
